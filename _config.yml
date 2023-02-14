@@ -1,0 +1,96 @@
+url: https://SCHCsRC.github.io
+baseurl: #
+
+# Site settings
+title: SCHCsRC
+email: schcsrc@gmail.com
+description: "SCH Cybersecurity Research Center"
+
+
+# Team names, titles and social links
+people:
+- name: 김동언
+  pic: 1
+  position: 14기 연구원
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: github
+      url: #
+
+- name: 서성환
+  pic: 2
+  position: 15기 연구원
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: github
+      url: #
+
+- name: 이수지
+  pic: 3
+  position: 16기 연구원
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: github
+      url: #
+
+- name: 이익규
+  pic: 4
+  position: 17기 연구원
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: github
+      url: #
+
+- name: 송현호
+  pic: 5
+  position: 18기 연구원
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: github
+      url: #    
+
+- name: 신동호
+  pic: 6
+  position: 18기 연구원
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: github
+      url: #    
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  # - title: twitter
+  #   url: http://twitter.com/jekyllrb
+  # - title: facebook
+  #   url:
+  # - title: stack-overflow
+  #   url: http://stackoverflow.com/questions/tagged/jekyll
+  # - title: bitbucket 
+  #   url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/SCHCsRC
+
+# Postal address (add as many lines as necessary)
+address: '[31538] 충남 아산시 순천향로 22-3 공과대학 9332'
+
+# Build settings
+markdown: kramdown
+permalink: pretty

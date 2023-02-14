@@ -1,0 +1,13 @@
+---
+title: 기초교육
+subtitle: train
+layout: default
+modal-id: 6
+img: training.jpeg
+thumbnail: training.jpeg
+alt: image-alt
+researcher: 서성환, 이수지
+category: Project
+description: 실무능력의 확보를 위한 악성코드와 Exploit Kit에 대한 기초교육
+
+---
