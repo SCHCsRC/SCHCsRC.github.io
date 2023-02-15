@@ -1,6 +1,6 @@
 ---
 title: 문서형 악성코드 탐지
-subtitle: machine learning
+subtitle: Machine Learning
 layout: default
 modal-id: 2
 img: AI.jpg

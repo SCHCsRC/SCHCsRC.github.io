@@ -1,6 +1,6 @@
 ---
 title: 모바일 악성코드 크롤러
-subtitle: Mobile malware Crawler
+subtitle: Mobile Malware Crawler
 layout: default
 modal-id: 1
 img: Mobile.png

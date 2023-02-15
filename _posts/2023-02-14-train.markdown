@@ -1,6 +1,6 @@
 ---
 title: 기초교육
-subtitle: train
+subtitle: Train
 layout: default
 modal-id: 6
 img: training.jpeg

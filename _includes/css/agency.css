@@ -72,7 +72,7 @@ h6 {
 .btn-primary {
     border-color: #D40202;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    /* font-family: {{ site.data.template.font.primary }}; */
     font-weight: 700;
     color: #fff;
     background-color: #D40202;
@@ -120,14 +120,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #D40202;
+    border-color: #999999;
     border-radius: 3px;
     text-transform: uppercase;
     /* font-family: {{ site.data.template.font.primary }}; */
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #D40202;
+    background-color: #999999;
 }
 
 .btn-xl:hover,
@@ -176,15 +176,15 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #D40202;
+    /* font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive; */
+    color: #FFF;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #9D0101;
+    color: #D3D3D3;
 }
 
 .navbar-default .navbar-collapse {
@@ -308,7 +308,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
+        /* font-family: {{ site.data.template.font.secondary }}; */
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -337,7 +337,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
+    /* font-family: {{ site.data.template.font.secondary }}; */
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -417,7 +417,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: {{ site.data.template.font.secondary }};
+    /* font-family: {{ site.data.template.font.secondary }}; */
     font-size: 16px;
     font-style: italic;
 }
@@ -693,28 +693,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    /* font-family: {{ site.data.template.font.primary }}; */
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    /* font-family: {{ site.data.template.font.primary }}; */
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    /* font-family: {{ site.data.template.font.primary }}; */
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    /* font-family: {{ site.data.template.font.primary }}; */
     font-weight: 700;
     color: #bbb;
 }
@@ -735,7 +735,7 @@ footer span.copyright {
     text-transform: none;
     display: flex;
     justify-content: center;
-    font-family: {{ site.data.template.font.primary }};
+    /* font-family: {{ site.data.template.font.primary }}; */
     line-height: 20px;
 }
 
