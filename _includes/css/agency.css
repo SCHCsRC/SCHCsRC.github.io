@@ -734,6 +734,7 @@ footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     display: flex;
+    font-size: small;
     justify-content: center;
     /* font-family: {{ site.data.template.font.primary }}; */
     line-height: 20px;
@@ -744,7 +745,11 @@ footer span.Email {
     text-transform: none;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    font-size: small;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
     line-height: 20px;
 }
 
@@ -753,7 +758,11 @@ footer span.address {
     text-transform: none;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    font-size: small;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
     line-height: 20px;
 }
 
