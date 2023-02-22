@@ -911,6 +911,13 @@ body.page-template .post-title {
     text-decoration: none;
 }
 
+#categories{
+    font-size: 15px;
+    color: #9EABB3;
+    border-top: none;
+    padding-left: 5px;
+}
+
 content .post-except {
     padding: 30px;
 }
@@ -1044,11 +1051,11 @@ content .post-except {
 }
 
 .pagination {
-    position: relative;
+    position: absolute;
+    display: inline-block;
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
-    font-family: "Open Sans", sans-serif;
     font-size: 1.3rem;
     color: #9EABB3;
     text-align: center;
@@ -1062,4 +1069,14 @@ content .post-except {
 .pagination a {
     color: #9EABB3;
     transition: all 0.2s ease;
+}
+
+.older-posts, .newer-posts {
+    position: absolute;
+    display: inline-block;
+    padding: 0 15px;
+    border: #bfc8cd 1px solid;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: border 0.3s ease;
 }
