@@ -6,12 +6,16 @@ title: SCHCsRC
 email: schcsrc@gmail.com
 description: "SCH Cybersecurity Research Center"
 
+urls:
+  - text: report
+    url: /report
 
 # Team names, titles and social links
 people:
 - name: 김동언
   pic: 1
   position: 14기 연구원
+  img: /img/team/1.jpg
   social:
     - title: twitter
       url: #
@@ -23,6 +27,7 @@ people:
 - name: 서성환
   pic: 2
   position: 15기 연구원
+  img: /img/team/1.jpg
   social:
     - title: twitter
       url: #
@@ -34,6 +39,7 @@ people:
 - name: 이수지
   pic: 3
   position: 16기 연구원
+  img: /img/team/1.jpg
   social:
     - title: twitter
       url: #
@@ -45,6 +51,7 @@ people:
 - name: 이익규
   pic: 4
   position: 17기 연구원
+  img: /img/team/1.jpg
   social:
     - title: twitter
       url: #
@@ -56,6 +63,7 @@ people:
 - name: 송현호
   pic: 5
   position: 18기 연구원
+  img: /img/team/1.jpg
   social:
     - title: twitter
       url: #
@@ -67,6 +75,7 @@ people:
 - name: 신동호
   pic: 6
   position: 18기 연구원
+  img: /img/team/1.jpg
   social:
     - title: twitter
       url: #
