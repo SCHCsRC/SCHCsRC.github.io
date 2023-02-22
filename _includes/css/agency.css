@@ -907,6 +907,7 @@ body.page-template .post-title {
 }
 
 .post-title a {
+    border-top: #999999 3px solid;
     text-decoration: none;
 }
 
@@ -1025,4 +1026,40 @@ content .post-except {
 .post-meta a {
     color: #9EABB3;
     text-decoration: none;
+}
+
+.post {
+    position: relative;
+    width: 80%;
+    margin: 4rem auto;
+    padding-bottom: 4rem;
+    border-bottom: #EBF2F6 1px solid;
+    word-wrap: break-word;
+}
+
+.page-number {
+    display: inline-block;
+    padding: 2px 0;
+    min-width: 100px;
+}
+
+.pagination {
+    position: relative;
+    width: 80%;
+    max-width: 710px;
+    margin: 4rem auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.3rem;
+    color: #9EABB3;
+    text-align: center;
+}
+
+.older-posts:hover, .newer-posts:hover {
+    color: #889093;
+    border-color: #98a0a4;
+}
+
+.pagination a {
+    color: #9EABB3;
+    transition: all 0.2s ease;
 }

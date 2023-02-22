@@ -102,4 +102,14 @@ address: '[31538] 충남 아산시 순천향로 22-3 공과대학 9332'
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:year/:month/:date/:title
+
+plugins:
+  - jekyll-paginate-v2
+pagination:
+  enabled: true
+  per_page: 4
+  sort_reverse: true
+  sort_field: 'date'
+  permalink: '/report/page/:num'
+paginate_path: '/report/page/:num'

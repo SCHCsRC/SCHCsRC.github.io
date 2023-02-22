@@ -8,7 +8,7 @@ thumbnail: antivirus.png
 author: 신동호
 categories: Project
 description: Python을 통해 개발된 KICOM AV 오픈소스 프로젝트에 대한 버그수정, 악성코드 패턴 추가 등을 통해 해당 AV의 완성도와 성능 향상을 목표로 한다.
-
+paginate_path: '/report/page/:num/'
 ---
 
 Python을 통해 개발된 KICOM AV 오픈소스 프로젝트에 대한 버그수정, 악성코드 패턴 추가 등을 통해 해당 AV의 완성도와 성능 향상을 목표로 한다.

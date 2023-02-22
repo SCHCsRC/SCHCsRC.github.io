@@ -35,3 +35,15 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+if ( document.querySelector('.pager') ) {
+    var infScroll = new InfiniteScroll( grid, {
+      path: '.next',
+      append: '.grid-item',
+      outlayer: msnry,
+      status: '.page-load-status',
+      hideNav: '.pager',
+      scrollThreshold: 0,
+      responseType: 'document'
+    });
+  }
