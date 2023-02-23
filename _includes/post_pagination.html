@@ -2,9 +2,9 @@
     <div class="col-sm-4">
     {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-            <a class="newer-posts" href="{{ site.baseurl }}/report" title="Previous Page">&laquo; Previous Page</a>
+            <a class="newer-posts" href="{{ site.baseurl }}/report" title="Previous Page">&laquo; Previous</a>
         {% else %}
-            <a class="newer-posts" href="{{ site.baseurl }}page/{{ paginator.previous_page }}" title="Previous Page">&laquo; Pervious Page</a>
+            <a class="newer-posts" href="{{ site.baseurl }}page/{{ paginator.previous_page }}" title="Previous Page">&laquo; Pervious</a>
         {% endif %}
     {% endif %}
     </div>
@@ -13,7 +13,7 @@
     </div>
     <div class="col-sm-4">
         {% if paginator.next_page %} 
-            <a class="older-posts" href="{{ site.baseurl }}page/{{ paginator.next_page }}" title="Next Page">Next Page &raquo;</a>
+            <a class="older-posts" href="{{ site.baseurl }}page/{{ paginator.next_page }}" title="Next Page">Next &raquo;</a>
         {% endif %} 
     </div>
     
