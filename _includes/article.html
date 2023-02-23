@@ -14,11 +14,7 @@
                 {% if page.categories.size > 0 %}
                 on
                 {% for category in page.categories %}
-                    {% if forloop.index == page.tags.size %}
-                       <a href='{{ site.baseurl }}report/{{ category }}'>{{ page.categories }}</a>
-                    {% else %}
-                       <a href='{{ site.baseurl }}report/{{ category }}'>{{ page.categories }}</a>,
-                    {% endif %}
+                    <a>{{ page.categories }}</a>
                 {% endfor %}
                 {% endif %}
             </content>
@@ -42,8 +38,8 @@
                             <img class="img" style="background-image: url('{{ site.baseurl }}{{ people.img }}');"></a>
                         </figure>
                         <content class="author">
-                            <h4><a>{{ people.name }}</a></h4>
-                            <p>{{ people.position }}</p>
+                            <h4><a id="name">{{ people.name }}</a></h4>
+                            <p class="text-muted">{{ people.position }}</p>
                         </content>
                         <!-- /author  -->
                         <ul class="list-inline social-buttons">

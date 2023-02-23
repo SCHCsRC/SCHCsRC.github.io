@@ -39,6 +39,10 @@ a {
     color: #D40202;
 }
 
+#name {
+    color: #222;
+}
+
 a:hover,
 a:focus,
 a:active,
