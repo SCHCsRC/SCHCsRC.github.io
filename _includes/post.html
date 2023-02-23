@@ -32,7 +32,9 @@
                 <!-- <p>{{ post.author }}</p>
                 {% endif %}
             {% endfor %} -->
-            <a>{{ post.author }}</a>
+            {% for author in post.author %}
+                <a>{{ author }}</a>
+            {% endfor %}
 
             <!-- [[tags prefix=" on "]] -->
             {% if post.tags.size > 0 %}

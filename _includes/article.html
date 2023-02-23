@@ -6,7 +6,9 @@
             <h1 class="post-title">{{ page.title }}</h1>
             <content class="post-meta">
             <!-- <a href='{{ site.baseurl }}{{ page.about }}'>{{ site.author }}</a> -->
-            <a>{{ page.author }}</a>
+            {% for author in page.author %}
+                <a>{{ author }}</a>
+            {% endfor %}
             <time class="post-date" datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date_to_string }}</time>
                 <!-- [[tags prefix=" on "]] -->
                 {% if page.categories.size > 0 %}
@@ -28,47 +30,37 @@
 
         </content>
 
-        <footer class="post-footer">
+        
 
             <!-- Everything inside the #author tags pulls data from the author -->
             <!-- #author-->
-            {% for author in site.people %}
-                {% if author[1].username == page.author %}
-                    {% if author[1].assets %}
+        {% for author in page.author %}
+            {% for people in site.people %}
+                {% if people.name == author %}
+                    <footer class="post-footer">
                         <figure class="author-image">
-                            <a class="img" href="{{ author[1].img }}"></a>
+                            <img class="img" style="background-image: url('{{ site.baseurl }}{{ people.img }}');"></a>
                         </figure>
-                    {% endif %}
-
-                    <content class="author">
-                        <h4><a>{{ author[1].name }}</a></h4>
-                        <div class="author-meta">
-                            {% if author[1].location %}<span class="author-location icon-location"> {{ author[1].location }}</span>{% endif %}
-                            {% if author[1].url %}<span class="author-link icon-link"><a href="{{ author[1].url_full }}"> {{ author[1].url }}</a></span>{% endif %}
-                        </div>
-                    </content>
-
-                    <!-- /author  -->
-
-                    <content class="share">
-                        <h4>Share this post</h4>
-                        <a class="icon-twitter" href="http://twitter.com/share?text={{ page.title }}&amp;url={{ site.url }}{{ page.url | remove: '/' }}"
-                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                            <span class="hidden">Twitter</span>
-                        </a>
-                        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | remove: '/' }}"
-                            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                            <span class="hidden">Facebook</span>
-                        </a>
-                        <a class="icon-github" href="https://plus.google.com/share?url={{ site.url }}{{ page.url | remove: '/' }}"
-                           onclick="window.open(this.href, 'github-share', 'width=490,height=530');return false;">
-                            <span class="hidden">Github</span>
-                        </a>
-                    </content>
+                        <content class="author">
+                            <h4><a>{{ people.name }}</a></h4>
+                            <p>{{ people.position }}</p>
+                        </content>
+                        <!-- /author  -->
+                        <ul class="list-inline social-buttons">
+                            {% for network in people.social %}
+                                <li>
+                                    <a href="{{ network.url }}">
+                                        <i class="fa fa-{{ network.title }}"></i>
+                                    </a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </footer>
                 {% endif %}
             {% endfor %}
+        {% endfor %}
 
-        </footer>
+        
 
     </article>
 
@@ -78,20 +70,18 @@
 
     <!-- [[! next_post ]] -->{{ post.url | remove: '/' }}
     {% if page.next %}
-        <a class="read-next-story {% if page.next.cover %}" style="background-image: url({{ site.baseurl }}{{ page.next.cover }}){% else %}no-cover{% endif %}" href="{{ site.baseurl }}{{ page.next.url }}">
+        <a class="read-next-story" {% if page.next.thumbnail %} style="background-image: url('{{ site.baseurl }}{{ page.next.thumbnail }}');" {% else %} style="background-image: no-cover;" {% endif %} href="{{ site.baseurl }}{{ page.next.url }}">
             <content class="post">
                 <h2>{{ page.next.title }}</h2>
-                <p>{{ page.next.content | strip_html | truncatewords:15 }}</p>
             </content>
         </a>
     {% endif %}
     <!-- [[! /next_post ]] -->
     <!-- [[! prev_post ]] -->
     {% if page.previous %}
-        <a class="read-next-story prev {% if page.previous.cover %}" style="background-image: url({{ site.baseurl }}{{ page.previous.cover }}){% else %}no-cover{% endif %}" href="{{ site.baseurl }}{{ page.previous.url }}">
+        <a class="read-next-story prev"  {% if page.previous.thumbnail %} style="background-image: url('{{ site.baseurl }}{{ page.previous.thumbnail }}');" {% else %} style="background-image: no-cover;" {% endif %} href="{{ site.baseurl }}{{ page.previous.url }}">
             <content class="post">
                 <h2>{{ page.previous.title }}</h2>
-                <p>{{ page.previous.content | strip_html | truncatewords:15 }}</p>
             </content>
         </a>
     {% endif %}
