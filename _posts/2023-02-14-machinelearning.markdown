@@ -2,7 +2,6 @@
 title: "문서형 악성코드 탐지"
 subtitle: Machine Learning
 layout: post
-subclass: 'post'
 modal-id: 2
 img: /img/portfolio/AI.jpg
 thumbnail: /img/portfolio/AI.jpg

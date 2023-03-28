@@ -1,0 +1,30 @@
+---
+title: 2022 하반기 분석 보고서
+#subtitle: 
+layout: post
+#modal-id: 
+#img: 
+#thumbnail:
+author: ['이수지']
+categories: Post
+description: 2022 연구원 하반기 분석 보고서입니다.
+permalink: report/:categories/:year/:month/:day/:title/
+published: true
+---
+**2022 하반기 분석 보고서**
+
+이번 하반기 보고서에는 지속적인 업그레이드로 2022년도에는 3.0버전까지 발견된 LockBit, Vohuk와 서유럽권 및 미국을 대상으로 공격을 진행한 APT 형식의 Blask Basta 랜섬웨어, 2022년도 7월에 발견된 Raccoon Stealr v1의 변종인 Raccoon Stealer v2, 2014년부터 현재까지도 활발히 활동하는 AgentTesla의 분석내용을 담고 있습니다.
+
+
+**[분석 내용]**
+
+| 악성코드 | 종류 | 분석가 |
+|:---------:|:---------:|:---------:|
+| LockBit&nbsp;&nbsp; | RansomWare &nbsp;&nbsp;&nbsp; | 이수지 |
+| Vohuk&nbsp;&nbsp; | RansomWare &nbsp;&nbsp;&nbsp; | 이익규 |
+| Black Basta&nbsp;&nbsp; | RansomWare &nbsp;&nbsp;| 서성환 |
+| Raccoon Stealer 2.0&nbsp;&nbsp; | InfoStealer &nbsp;&nbsp;&nbsp;| 안병열 |
+| AgentTesla&nbsp;&nbsp; | InfoStealer &nbsp;&nbsp;&nbsp;| 송현호 |
+| Cryptbot&nbsp;&nbsp; | InfoStealer &nbsp;&nbsp;&nbsp;| 신동호 |
+
+[2022년_하반기_악성코드_분석_보고서.pdf](/img/report/post/센터_2022_하반기_악성코드분석보고서.pdf)

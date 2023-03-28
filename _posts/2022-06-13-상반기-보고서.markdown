@@ -1,0 +1,29 @@
+---
+title: 2022 상반기 분석 보고서
+#subtitle: 
+layout: post
+#modal-id: 
+#img: 
+#thumbnail:
+author: ['이수지']
+categories: Post
+description: 2022 연구원 상반기 분석 보고서입니다.
+permalink: report/:categories/:year/:month/:day/:title/
+published: true
+---
+**2022 상반기 분석 보고서**
+
+2021년 상반기에 성행한 5월 미국의 대형 송유관 운영사인 '콜로니얼 파이프라인' 공격에 사용된 악성코드인 DarkSide,
+2020년에 등장한 RaaS 모델의 랜섬웨어로 22년 2월에도 여전히 활발하게 유포되고 있는 Conti,
+2022년 상반기 우크라이나를 상대로 러시아가 침공하면서 사이버전에서 사용한 Hermetic과 UA_WAR_RAT 악성코드입니다.
+
+**[분석 내용]**
+
+| 악성코드 | 종류 | 분석가 |
+|:---------:|:---------:|:---------:|
+| DarkSide | RansomWare &nbsp;&nbsp; | 서성환 |
+| Conti | RansomWare &nbsp;&nbsp; | 차현석 |
+| Hermetic | Wiper &nbsp;&nbsp;| 서성환 |
+| UA_WAR_RAT | RAT &nbsp;&nbsp;| 이익규 |
+
+[2022년_상반기_악성코드_분석_보고서.pdf](/img/report/post/%EC%84%BC%ED%84%B0_2022_%EC%83%81%EB%B0%98%EA%B8%B0_%EC%95%85%EC%84%B1%EC%BD%94%EB%93%9C%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)

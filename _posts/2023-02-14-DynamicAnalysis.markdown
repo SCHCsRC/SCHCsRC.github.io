@@ -2,7 +2,6 @@
 title: "모바일 악성코드 동적분석"
 subtitle: Dynamic Analysis
 layout: post
-subclass: 'post'
 modal-id: 3
 img: /img/portfolio/DynamicAnalysis.jpg
 thumbnail: /img/portfolio/DynamicAnalysis.jpg

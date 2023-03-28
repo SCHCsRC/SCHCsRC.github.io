@@ -2,7 +2,6 @@
 title: 모바일 악성코드 크롤러
 subtitle: Mobile Malware Crawler
 layout: post
-subclass: 'post'
 modal-id: 1
 img: /img/portfolio/Mobile.png
 thumbnail: /img/portfolio/Mobile.png
