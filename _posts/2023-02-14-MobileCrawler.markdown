@@ -2,7 +2,7 @@
 title: 모바일 악성코드 크롤러
 subtitle: Mobile Malware Crawler
 layout: post
-modal-id: 1
+# modal-id:
 img: /img/portfolio/Mobile.png
 thumbnail: /img/portfolio/Mobile.png
 author: ['서성환']

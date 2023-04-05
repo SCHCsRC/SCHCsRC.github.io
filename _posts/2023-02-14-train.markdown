@@ -2,11 +2,11 @@
 title: "기초교육"
 subtitle: Train
 layout: post
-modal-id: 6
+modal-id: 4
 img: /img/portfolio/training.jpeg
 thumbnail: /img/portfolio/training.jpeg
 alt: image-alt
-author: ['서성환', '이수지']
+author: ['송현호', '신동호']
 categories: Project
 description: 실무능력의 확보를 위한 악성코드와 Exploit Kit에 대한 기초교육
 permalink: 'report/:categories/:year/:month/:day/:title/'
