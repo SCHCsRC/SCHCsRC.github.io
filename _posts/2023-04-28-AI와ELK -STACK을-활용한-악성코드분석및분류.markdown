@@ -1,5 +1,5 @@
 ---
-title: AI & ELK STACK 악성코드 분류 및 분석
+title: AI & ELK STACK 악성코드 분석
 subtitle: AI&ELK STACK malware analyze
 layout: post
 modal-id: 5
