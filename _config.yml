@@ -102,20 +102,7 @@ people:
     - title: facebook
       url: #
     - title: github
-      url: #    
-
-- name: 차미림
-  pic: 8
-  position: 20기 연구원
-  img: /img/team/1.jpg
-  state: active
-  social:
-    - title: twitter
       url: #
-    - title: facebook
-      url: #
-    - title: github
-      url: #    
 
 - name: 박준형
   # pic: 4
