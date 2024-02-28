@@ -26,21 +26,8 @@ people:
     - title: github
       url: https://github.com/7UN4/
 
-- name: 서성환
-  pic: 2
-  position: 15기 연구원
-  img: /img/team/1.jpg
-  state: active
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: github
-      url: #
-
 - name: 이수지
-  pic: 3
+  pic: 2
   position: 16기 연구원
   img: /img/team/1.jpg
   state: active
@@ -52,21 +39,8 @@ people:
     - title: github
       url: #
 
-- name: 이익규
-  pic: 4
-  position: 17기 연구원
-  img: /img/team/1.jpg
-  state: active
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: github
-      url: #
-
 - name: 송현호
-  pic: 5
+  pic: 3
   position: 18기 연구원
   img: /img/team/1.jpg
   state: active
@@ -79,7 +53,7 @@ people:
       url: #    
 
 - name: 신동호
-  pic: 6
+  pic: 4
   position: 18기 연구원
   img: /img/team/1.jpg
   state: active
@@ -92,10 +66,49 @@ people:
       url: #    
 
 - name: 송훈석
-  pic: 7
+  pic: 5
   position: 20기 연구원
   img: /img/team/1.jpg
   state: active
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: github
+      url: #
+  
+  - name: 장원식
+  pic: 6
+  position: 21기 연구원
+  img: /img/team/1.jpg
+  state: active
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: github
+      url: #
+  
+  - name: 김민수
+  pic: 7
+  position: 21기 연구원
+  img: /img/team/1.jpg
+  state: active
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: github
+      url: #
+
+- name: 서성환
+  #pic: 2
+  position: 15기 연구원
+  img: /img/team/1.jpg
+  state: graduation
   social:
     - title: twitter
       url: #
@@ -115,10 +128,23 @@ people:
     - title: facebook
       url: #
     - title: github
-      url: #    
+      url: #
 
 - name: 안병열
   # pic: 5
+  position: 17기 연구원
+  img: /img/team/1.jpg
+  state: graduation
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: github
+      url: #
+
+- name: 이익규
+  #pic: 4
   position: 17기 연구원
   img: /img/team/1.jpg
   state: graduation
