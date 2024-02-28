@@ -1,0 +1,28 @@
+---
+title: 2023 상반기 분석 보고서
+#subtitle: 
+layout: post
+#modal-id: 
+#img: 
+#thumbnail:
+author: ['이수지']
+categories: Post
+description: 2023 연구원 상반기 분석 보고서입니다.
+permalink: report/:categories/:year/:month/:day/:title/
+published: true
+---
+**2023 상반기 분석 보고서**
+
+2017년도에 처음 발견되어 기업 및 기관을 타겟으로 다양한 변종들로 현재까지 성행하고 있는 'GlobeImposter' 랜섬웨어, 
+2016년에 토르 네트워크에서 처음 발견되어 러시아의 해킹 조직 '드리덱스 봇넷'을 통해 대량의 스팸 메일로 확산된 'Loki' 랜섬웨어,
+2018년말에 발견되어 스팸 메일이나 인증 툴들로 위장하여 꾸준히 확산되고 있는 'Vidar' 인포스틸러에 대한 내용을 담고 있습니다.
+
+**[분석 내용]**
+
+| 악성코드 | 종류 | 분석가 |
+|:---------:|:---------:|:---------:|
+| GlobeImposter | RansomWare &nbsp;&nbsp; | 신동호 |
+| Loki | RansomWare &nbsp;&nbsp; | 송현호 |
+| Vidar | InfoStealer &nbsp;&nbsp;| 이수지 |
+
+[2023년_상반기_악성코드_분석_보고서.pdf](/img/report/post/[text](../img/report/post/센터_2023_상반기_악성코드분석보고서.pdf))
