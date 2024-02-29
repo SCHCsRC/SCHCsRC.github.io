@@ -78,7 +78,7 @@ people:
     - title: github
       url: #
   
-  - name: 장원식
+- name: 장원식
   pic: 6
   position: 21기 연구원
   img: /img/team/1.jpg
@@ -91,7 +91,7 @@ people:
     - title: github
       url: #
   
-  - name: 김민수
+- name: 김민수
   pic: 7
   position: 21기 연구원
   img: /img/team/1.jpg
