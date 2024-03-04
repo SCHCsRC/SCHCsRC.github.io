@@ -21,8 +21,8 @@ published: true
 
 | 악성코드 | 종류 | 분석가 |
 |:---------:|:---------:|:---------:|
-| GlobeImposter | &nbsp&nbsp RansomWare &nbsp;&nbsp; | 신동호 |
-| Loki | &nbsp&nbsp RansomWare &nbsp;&nbsp; | 송현호 |
-| Vidar | &nbsp&nbsp InfoStealer &nbsp;&nbsp;| 이수지 |
+| GlobeImposter | &nbsp;&nbsp; RansomWare &nbsp;&nbsp; | 신동호 |
+| Loki | &nbsp;&nbsp; RansomWare &nbsp;&nbsp; | 송현호 |
+| Vidar | &nbsp;&nbsp; InfoStealer &nbsp;&nbsp;| 이수지 |
 
 [2023년_상반기_악성코드분석보고서.pdf](/img/report/post/센터_2023_상반기_악성코드분석보고서.pdf)
